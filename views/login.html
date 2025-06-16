@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body>
+    <h2>Login</h2>
+    <form action="/login" method="POST">
+        <label>Email: <input type="email" name="email" required></label><br>
+        <label>Password: <input type="password" name="password" required></label><br>
+        <label>
+            Login as:
+            <select name="userType">
+                <option value="student">Student</option>
+                <option value="company">Company</option>
+            </select>
+        </label><br>
+        <button type="submit">Login</button>
+    </form>
+</body>
+</html>
